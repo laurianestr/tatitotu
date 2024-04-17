@@ -42,3 +42,84 @@
   display: flex;
   flex-direction: row;
 }
+
+.selection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.type-container {
+  width: 33%;
+  margin-bottom: 10px;
+}
+
+.type-container img {
+  margin-right: 5px;
+}
+
+.temps-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+.type-temps {
+  margin-top: 30px;
+}
+
+hr {
+  position: relative;
+  top: -37;
+  border: 0.8 solid black;
+  margin-left: 109px;
+}
+
+.type-temps h3 {
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.conditionnel hr {
+  position: relative;
+  top: -37;
+  border: 0.8 solid black;
+  margin-left: 155px;
+}
+
+.subjonctif hr {
+  position: relative;
+  top: -37;
+  border: 0.8 solid black;
+  margin-left: 132px;
+}
+
+.imperatif hr {
+  position: relative;
+  top: -37;
+  border: 0.8 solid black;
+  margin-left: 110px;
+}
+
+.indicatif hr {
+  position: relative;
+  top: -37;
+  border: 0.8 solid black;
+  margin-left: 102px;
+}
+
+.temps .options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.temps .options h5 {
+  text-align: center;
+  padding: 10px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
