@@ -28,4 +28,17 @@
 }
 
 .selecteur {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.selecteur h5 {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.temps .type-container {
+  display: flex;
+  flex-direction: row;
 }
