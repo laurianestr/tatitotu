@@ -3,6 +3,7 @@
   border: 3px solid #000;
   background: #fff;
   box-shadow: 9px 11px 0px 0px #000;
+  margin-bottom: 50px;
 }
 
 .option h2 {
@@ -14,17 +15,23 @@
 }
 
 .propositions {
-  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
 }
 
 .options-impression {
-  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 30px;
 }
 
-.selecteur {
+.options .selecteur {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 .selecteur h5 {
@@ -48,7 +55,7 @@
 
 .propositions .type-option .button-switch label {
   position: relative;
-  width: 145px;
+  width: 275px;
   bottom: 5px;
   height: 40px;
   display: inline-block;
@@ -66,7 +73,7 @@
   position: absolute;
   top: -3px;
   left: -2;
-  width: 60px;
+  width: 75px;
   height: 40px;
   background: #00ff4c;
   border-radius: 10px;
@@ -81,9 +88,83 @@
 .propositions .type-option .button-switch input:checked + label:after {
   left: auto;
   right: -2;
-  width: 80px;
+  width: 197px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.propositions .type-option .button-switch .first {
+  color: #000000;
+  font-size: 14px;
+  margin-top: 8px;
+  padding-left: 10px;
+}
+
+.type-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.option .nombre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.option input {
+  border: 2px solid;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: #e2e2e2;
+}
+
+.option select {
+  background-color: #e2e2e2;
+  padding: 4px;
+  border: 2px solid;
+  border-radius: 9px;
+}
+
+.type-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.propositions hr {
+  border: 1px solid;
+  margin-bottom: 20px;
+}
+
+.propositions h5 {
+  font-size: 16px;
+}
+
+.impression-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options-impression h6 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.options-impression .textfield input {
+  width: 100%;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
 }

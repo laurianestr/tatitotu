@@ -215,9 +215,8 @@
               <div class="verbes">
                 <div class="verbe-text">
                   <h2>MES VERBES</h2>
-                  <div class="textfield">
-                    <input type="text" />
-                  </div>
+                  <input type="text" name="textfield" />
+                  <br />
                 </div>
                 <div class="verbes-box">
                   <div class="cellules">
@@ -245,16 +244,30 @@
                     <h6>sauter</h6>
                   </div>
                   <div class="cellules">
-                    <h6>comprendre</h6>
+                    <h6>prendre</h6>
                   </div>
                   <div class="cellules">
-                    <h6>convaincre</h6>
+                    <h6>mettre</h6>
+                  </div>
+                  <div class="cellules">
+                    <h6>parler</h6>
+                  </div>
+                  <div class="cellules">
+                    <h6>entendre</h6>
+                  </div>
+                  <div class="cellules">
+                    <h6>donner</h6>
+                  </div>
+                  <div class="cellules">
+                    <h6>recevoir</h6>
                   </div>
                 </div>
               </div>
               <div class="temps">
                 <div class="title">
-                  <h2>MES TEMPS</h2>
+                  <div class="text">
+                    <h2>MES TEMPS</h2>
+                  </div>
                   <div class="options">
                     <h5>TOUT COCHER</h5>
                     <h5>TOUT DECOCHER</h5>
@@ -558,23 +571,43 @@
                 <div class="propositions">
                   <div class="nombre">
                     <h5>NOMBRE DE QUESTIONS</h5>
-                    <div class="textfield">
-                      <input type="text" />
-                    </div>
+                    <select name="caseSelect" id="select-choice">
+                      <option value="null" disabled selected>...</option>
+                      <option value="5">5</option>
+                      <option value="10">10</option>
+                      <option value="20">20</option>
+                      <option value="30">30</option>
+                      <option value="40">40</option>
+                      <option value="50">50</option>
+                    </select>
                   </div>
                   <div class="type-option">
                     <h5>TYPE</h5>
                     <div class="selecteur">
                       <div class="button-switch">
                         <div>
-                          <input type="checkbox" id="checkbox21" />
-                          <label for="checkbox21"></label>
+                          <input type="checkbox" id="checkbox30" />
+                          <label for="checkbox30">
+                            <div class="first">
+                              <h4>NORMAL TROUVER MODE + TEMPS</h4>
+                            </div></label
+                          >
                         </div>
                       </div>
                     </div>
                   </div>
                   <hr />
-                  <h5>OPTIONS D'IMPRESSION</h5>
+                  <div class="impression-title">
+                    <h5>OPTIONS D'IMPRESSION</h5>
+                    <div class="selecteur">
+                      <div class="button-switch">
+                        <div>
+                          <input type="checkbox" id="checkbox23" />
+                          <label for="checkbox23"></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="options-impression">
                   <h6>TITRE DU DOCUMENT</h6>
